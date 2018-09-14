@@ -1,0 +1,78 @@
+html,body {
+    padding:0;
+    margin:0;
+  }
+  
+  body {
+    background: #FAA275;
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+  }
+  
+  input#addToList {
+    padding:1em 2em 1em .5em;
+    font-size: 1em;
+    outline: none;
+    width: 200px
+  }
+
+  #selectShop {
+      font-size: 1em;
+      padding:1em 2em 1em .5em;
+      background: #5398BE;
+      height: 50px;
+      width: 93px;
+  }
+  
+  input[type='checkbox'] {
+    transform: scale(2) translateY(2px);
+    float:right;
+  }
+  
+  button {
+    padding:1em 2em;
+    font-size: 1em;
+    outline: none;
+    background: #5398BE;
+    box-shadow: none;
+    border: none;
+  }
+  
+  button:hover {
+    background: #36637C;
+  }
+  
+  #shoppingList {
+    margin:1em auto;
+    background: #ccc;
+    max-width: 500px;
+    height: 600px;
+    padding: .2em;
+    list-style-type: none;
+  }
+
+  #shoppingList > p {
+      font-size: 20px;
+      background: #b3b2b2;
+      color: white;
+      filter:blur(1px)
+  }
+
+  #shoppingList > p:hover {
+      filter:blur(0px)
+  }
+  
+  .list-item {
+    background: #5398BE;
+    color: #fff;
+    padding: .4em;
+    margin: .3em;
+    font-size: 1.5em;
+    letter-spacing: .05em;
+    list-style-type: none;
+  }
+  
+  .strike {
+    text-decoration: line-through;
+  }
+  
